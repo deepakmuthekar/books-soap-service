@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetBookResponse
+	xmlns="http://deepakmuthekar.github.com/book-request"
+	xsi:schemaLocation="http://deepakmuthekar.github.com/book-request book.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Book>
+		<id>1</id>
+		<isbn>978-0071350938</isbn>
+		<author>Bill Venners</author>
+		<price>23.35</price>
+	</Book>
+
+</GetBookResponse>

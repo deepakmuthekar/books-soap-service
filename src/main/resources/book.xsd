@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://deepakmuthekar.github.com/book-request"
+	xmlns:tns="http://deepakmuthekar.github.com/book-request"
+	elementFormDefault="qualified">
+
+	<xs:element name="GetBookRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="isbn" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="GetBookResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Book" type="tns:Book" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Book">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" />
+			<xs:element name="isbn" type="xs:string" />
+			<xs:element name="author" type="xs:string" />
+			<xs:element name="price" type="xs:double" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

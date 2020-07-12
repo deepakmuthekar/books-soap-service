@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetBookRequest
+	xmlns="http://deepakmuthekar.github.com/book-request"
+	xsi:schemaLocation="http://deepakmuthekar.github.com/book-request book.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<isbn>978-0071350938</isbn>
+
+</GetBookRequest>
