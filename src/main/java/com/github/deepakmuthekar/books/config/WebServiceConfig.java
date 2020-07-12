@@ -22,6 +22,8 @@ import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 
+import com.github.deepakmuthekar.books.interceptors.MDCInterceptor;
+
 
 @EnableWs
 @Configuration

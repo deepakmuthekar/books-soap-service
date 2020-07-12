@@ -1,4 +1,4 @@
-package com.github.deepakmuthekar.books.endpoints;
+package com.github.deepakmuthekar.books.faults;
 
 import org.springframework.ws.soap.server.endpoint.annotation.FaultCode;
 import org.springframework.ws.soap.server.endpoint.annotation.SoapFault;

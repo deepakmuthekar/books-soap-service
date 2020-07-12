@@ -1,4 +1,4 @@
-package com.github.deepakmuthekar.books.config;
+package com.github.deepakmuthekar.books.interceptors;
 
 import java.io.StringWriter;
 import java.util.UUID;

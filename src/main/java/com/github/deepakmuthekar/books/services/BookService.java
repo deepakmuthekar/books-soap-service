@@ -7,7 +7,7 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.stereotype.Service;
 
-import com.github.deepakmuthekar.books.endpoints.RecordNotFoundFault;
+import com.github.deepakmuthekar.books.faults.RecordNotFoundFault;
 import com.github.deepakmuthekar.schema.Book;
 
 @Service
